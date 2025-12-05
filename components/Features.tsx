@@ -20,12 +20,9 @@ const Features: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
-          {/* Content Column - Shows second on mobile (Order 2), first on Desktop (Order 1) is usually confusing, so we keep standard flow for mobile users: Visual -> Explanation is good, but for features usually Title -> List -> Image. 
-              Current design: Text (Left) - Image (Right).
-              Mobile Stack: Text (Top) - Image (Bottom).
-          */}
+          {/* Content Column - Shows second on mobile (Order 2), first on Desktop (Order 1) */}
           <div className="order-1 lg:order-1">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-6 leading-tight">
+            <h2 className="font-display text-3xl md:text-4xl font-extrabold text-navy-900 mb-6 leading-tight">
               Tính năng vượt trội - <br/>
               <span className="gradient-text">Không cần lo lắng nữa</span>
             </h2>

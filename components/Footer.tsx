@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="bg-gradient-to-r from-navy-700 to-navy-800 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between mb-16 md:mb-20 shadow-2xl relative overflow-hidden border border-white/10">
            <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 pointer-events-none"></div>
            <div className="relative z-10 mb-8 md:mb-0 text-center md:text-left">
-             <h2 className="text-2xl md:text-3xl font-bold mb-2">Sẵn sàng chinh phục Kinh Tế Học?</h2>
+             <h2 className="font-display text-2xl md:text-3xl font-bold mb-2">Sẵn sàng chinh phục Kinh Tế Học?</h2>
              <p className="text-blue-100">Tham gia ngay với hàng ngàn sinh viên đang học thông minh hơn.</p>
            </div>
            <div className="relative z-10 flex w-full md:w-auto">
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 sm:col-span-2 md:col-span-1">
             <div className="flex items-center mb-6">
               <img 
-                src="https://placehold.co/180x48/transparent/ffffff?text=Edukonomy&font=montserrat" 
+                src="assets/images/edukonomy_logo.svg" 
                 alt="Edukonomy Logo" 
                 className="h-8 md:h-9 w-auto object-contain"
               />

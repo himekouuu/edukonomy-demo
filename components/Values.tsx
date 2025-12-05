@@ -8,7 +8,7 @@ const Values: React.FC = () => {
         
         {/* Values */}
         <div className="text-center mb-20">
-          <h2 className="text-2xl font-bold text-navy-900 mb-12">Đối tác học tập đáng tin cậy</h2>
+          <h2 className="font-display text-2xl font-bold text-navy-900 mb-12">Đối tác học tập đáng tin cậy</h2>
           <div className="grid md:grid-cols-3 gap-12">
             {VALUE_PROPS.map((prop) => {
               const Icon = prop.icon!;

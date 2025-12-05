@@ -6,7 +6,7 @@ const UseCases: React.FC = () => {
     <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
+          <h2 className="font-display text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
             Edukonomy giúp bạn <span className="text-navy-600">trong mọi tình huống</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">

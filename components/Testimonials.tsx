@@ -10,7 +10,7 @@ const Testimonials: React.FC = () => {
           
           {/* Header & Stats Column */}
           <div className="lg:col-span-1 space-y-8">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 leading-tight">
+            <h2 className="font-display text-3xl md:text-4xl font-extrabold text-navy-900 leading-tight">
               Sinh viên Việt Nam <br/>
               <span className="text-navy-600">tin dùng Edukonomy</span>
             </h2>
@@ -42,7 +42,7 @@ const Testimonials: React.FC = () => {
               <div key={item.id} className="bg-white p-6 rounded-2xl shadow-lg border border-gray-50 hover:shadow-xl transition-shadow">
                 <div className="flex space-x-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} className="text-yellow-400 fill-yellow-400" />
+                    <Star key={i} size={16} className="text-brand-orange fill-brand-orange" />
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 leading-relaxed">"{item.content}"</p>

@@ -16,7 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ onStartChat }) => {
           {/* Logo Placeholder */}
           <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.scrollTo(0,0)}>
             <img 
-              src="https://placehold.co/180x48/transparent/1e3a8a?text=Edukonomy&font=montserrat" 
+              src="assets/images/edukonomy_logo.svg" 
               alt="Edukonomy Logo" 
               className="h-8 md:h-10 w-auto object-contain"
             />
@@ -58,7 +58,7 @@ const Navbar: React.FC<NavbarProps> = ({ onStartChat }) => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute w-full bg-white border-b border-gray-100 shadow-xl animate-float-in">
+        <div className="md:hidden absolute w-full bg-white border-b border-gray-100 shadow-xl animate-slide-down">
           <div className="px-4 pt-2 pb-6 space-y-2">
             {NAV_ITEMS.map((item) => (
               <a

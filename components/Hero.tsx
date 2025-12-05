@@ -36,9 +36,9 @@ const TypewriterText = ({ texts }: { texts: string[] }) => {
   }, [currentText, isDeleting, loopNum, typingSpeed, texts]);
 
   return (
-    <span className="text-yellow-400 inline-block min-w-[200px]">
+    <span className="text-brand-orange inline-block min-w-[200px]">
       {currentText}
-      <span className="animate-pulse border-r-2 border-yellow-400 ml-1">&nbsp;</span>
+      <span className="animate-pulse border-r-2 border-brand-orange ml-1">&nbsp;</span>
     </span>
   );
 };
@@ -62,7 +62,7 @@ const Hero: React.FC<HeroProps> = ({ onStartChat }) => {
           
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-6 md:space-y-8">
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.2] tracking-tight">
+            <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.2] tracking-tight">
               Học Kinh Tế <br className="hidden lg:block"/> 
               Dễ Dàng Hơn <br/>
               <TypewriterText texts={['Với AI Thông Minh', 'Giải Đáp 24/7', 'Cùng Gemini AI', 'Miễn Phí 100%']} /> 🚀
@@ -104,14 +104,14 @@ const Hero: React.FC<HeroProps> = ({ onStartChat }) => {
             <div className="absolute bottom-10 sm:bottom-20 left-0 sm:left-0 bg-white p-2 sm:p-3 rounded-2xl shadow-xl animate-float-delayed text-blue-500 z-20 hidden sm:block">
               <Calculator size={28} className="sm:w-8 sm:h-8" />
             </div>
-            <div className="absolute top-1/2 -right-2 sm:-right-4 bg-white p-2 sm:p-3 rounded-2xl shadow-xl animate-pulse-slow text-yellow-500 z-20 hidden sm:block">
+            <div className="absolute top-1/2 -right-2 sm:-right-4 bg-white p-2 sm:p-3 rounded-2xl shadow-xl animate-pulse-slow text-brand-orange z-20 hidden sm:block">
               <Star size={20} className="sm:w-6 sm:h-6" fill="currentColor" />
             </div>
             
             {/* Penguin Image Container */}
             <div className="relative z-10 transform hover:scale-105 transition-transform duration-500 w-full flex justify-center">
                <img 
-                 src="https://placehold.co/500x500/transparent/FFFFFF?text=Penguin+Mascot"
+                 src="assets/images/edukonomy_mascot_landing.svg"
                  alt="Edukonomy Penguin Mascot" 
                  className="w-[80%] sm:w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[450px] h-auto object-contain drop-shadow-2xl animate-float"
                />

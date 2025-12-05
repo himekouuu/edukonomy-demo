@@ -6,7 +6,7 @@ const Pricing: React.FC = () => {
     <section id="pricing" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
+          <h2 className="font-display text-3xl md:text-4xl font-extrabold text-navy-900 mb-4">
             Bảng giá <span className="text-navy-600">linh hoạt</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -59,7 +59,7 @@ const Pricing: React.FC = () => {
             </div>
             
             <h3 className="text-2xl font-bold mb-2 flex items-center">
-              Pro Student <Zap className="w-5 h-5 text-yellow-400 ml-2 fill-yellow-400" />
+              Pro Student <Zap className="w-5 h-5 text-brand-orange ml-2 fill-brand-orange" />
             </h3>
             <div className="flex items-baseline mb-6">
               <span className="text-4xl font-extrabold">100.000đ</span>
