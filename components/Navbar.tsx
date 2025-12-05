@@ -16,7 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ onStartChat }) => {
           {/* Logo Placeholder */}
           <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.scrollTo(0,0)}>
             <img 
-              src="./assets/images/edukonomy_logo.svg" 
+              src="/assets/images/edukonomy_logo.svg" 
               alt="Edukonomy Logo" 
               className="h-8 md:h-10 w-auto object-contain"
             />

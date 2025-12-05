@@ -111,7 +111,7 @@ const Hero: React.FC<HeroProps> = ({ onStartChat }) => {
             {/* Penguin Image Container */}
             <div className="relative z-10 transform hover:scale-105 transition-transform duration-500 w-full flex justify-center">
                <img 
-                 src="assets/images/edukonomy_mascot_landing.svg"
+                 src="/assets/images/edukonomy_mascot_landing.svg"
                  alt="Edukonomy Penguin Mascot" 
                  className="w-[80%] sm:w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[450px] h-auto object-contain drop-shadow-2xl animate-float"
                />
