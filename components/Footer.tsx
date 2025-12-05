@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 sm:col-span-2 md:col-span-1">
             <div className="flex items-center mb-6">
               <img 
-                src="assets/images/edukonomy_logo.svg" 
+                src="./assets/images/edukonomy_logo.svg" 
                 alt="Edukonomy Logo" 
                 className="h-8 md:h-9 w-auto object-contain"
               />
